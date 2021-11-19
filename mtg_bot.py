@@ -18,4 +18,4 @@ async def on_message(message):
     if re.findall(pattern, message.content):
         await message.channel.send(scryfall_request.card_data(re.search(pattern, message.content).group(1)))
 
-client.run('OTExMjQ0NjI5MDIwNjU5NzIy.YZeksQ.QGbm7obWaWNRVELZnhyFOOHbBK4')
+client.run('')
